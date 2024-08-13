@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(7, 7, 7); color: white;">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+<div data-aos="fade-left">
+<header class="header">
+<a href="#" class="logo">Portfolio</a>
+<nav class="navbar">
+<a href="#">Home</a>
+<a href="#About">About</a>
+<a href="#Skill">Skill</a>
+<a href="#Education">Education</a>
+<a href="#projects">projects</a>
+<a href="#contact">contact </a>
+</nav>
+</header>
+</div>
+<section class="Home">
+<div class="Home-content">
+<div data-aos="flip-right">
+<h3>Hello It's Me</h3>
+<h1>Fahad Nadeem</h1>
+</div>
+<div data-aos="zoom-in-up">
+<h3>And I'm a <span class="text">Frontend Web Developement</span></h3>
+<p>
+I'm a web Designer with extensive  experience for over 3 years.<br>
+expertise is to create and website design, Frontend design , and many more.....
+</p>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
+     <div class="Home-sci" style="margin-left: 100px;">
+      <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com"><i class='bx bxl-instagram'></i></a>
+      <a href="https://web.whatsapp.com"><i class='bx bxl-whatsapp'></i></a>
+      <a href="https://www.tiktok.com"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+<a href="#About" class="btn-box">More About Me</a>
+</div>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
+<div class="img">
+    <img src="img/1.jpg">
+</div>
+</div>
+</section>
+<div id="About">
+<div data-aos="fade-down-right">
+<section class="About" id="About">
+<div class="About-img">
+  <div data-aos="fade-down-right">
+  <img src="img/1.jpg">
+</div>
+</div>
+<div class="About-text">
+  <h2>About<span>&nbsp;Me</span></h2>
+  <h4>Full Stack Developement</h4>
+  <p>Hi, I’m Fahad Nadeem, a front-end web developer with a passion for creating engaging and user-friendly websites. <br>
+    I’m skilled in HTML, CSS, and JavaScript, bootstrap, PHP,  and I enjoy turning ideas into interactive web experiences.<br>
+     I also work with modern tools like React and Vue to build dynamic applications.I love solving problems and working on<br>
+      projects that make the web better for users. When I’m not coding, I’m exploring new technologies and design trends to<br>
+       keep my skills sharp.</p>
+<a href="#" class="btn-box">More About Me</a>
+</div>
+</section>
+</div>
+<div id="Skill">
+<section>
+  <div data-aos="fade-up"
+  data-aos-duration="3000">
+  <div class="Services" id="Services">
+<div class="contanier">
+  <h1 class="Sub-title" style="text-align: center;">My<span style="color: aqua; font-weight: 500;">&nbsp;Services</span></h1>
+  <div class="Services-list">
+    <div>
+      <i class='bx bx-code' style='color:#1ae4d5'></i>
+      <h2>UL/UX Design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi unde, nostrum incidunt doloremque deserunt. <br>
+        Cumque recusandae delectus officia architecto minus animi accusamus quod! Quia debitis sunt deserunt sit harum?</p>
+        <a href="#" class="read">Lern More</a>
+    </div>
+    <div>
+      <i class='bx bx-crop' style='color:#1ae4d5' ></i>
+      <h2>UL/UX Design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi unde, nostrum incidunt doloremque deserunt. <br>
+        Cumque recusandae delectus officia architecto minus animi accusamus quod! Quia debitis sunt deserunt sit harum?</p>
+        <a href="#" class="read">Lern More</a>
+    </div>
+    <div>
+      <i class='bx bxl-apple' style='color:#1ae4d5' ></i>
+      <h2>UL/UX Design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi unde, nostrum incidunt doloremque deserunt. <br>
+        Cumque recusandae delectus officia architecto minus animi accusamus quod! Quia debitis sunt deserunt sit harum?</p>
+        <a href="#" class="read">Lern More</a>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</section>
+</div>
+<section>
+  <div data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+
+<div style="text-align: center; margin-top: 150px; color: #1ae4d5; font-weight: bold;">
+  <h1>My<span>&nbsp;Skills</span></h1>
+</div>
+<div style="margin-left: 100px; font-size: larger; font-weight:bold;color: beige; margin-top: 100px;text-decoration: underline;">
+  <h1>Technical Skills</h1>
+</div>
+<div class="Fahad">
+<div class="bar"><i style="color: orange;" class='bx bxl-html5'></i>
+    <span>HTML</span>
+    <div class="progress" style="width: 400px;">
+      <div class="progress-bar bg-blue progress-bar-striped" style="width:60%">90%</div>
+    </div>
+<div class="bar"><i style="color: #147bbc;" class='bx bxl-css3'></i>
+    <span>CSS</span>
+    <div class="progress" style="width: 300px;">
+      <div class="progress-bar bg-blue progress-bar-striped" style="width:70%">75%</div>
+    </div>
+<div class="bar"><i style="color: yellow;" class='bx bxl-javascript'></i>
+    <span>JavaScript</span>
+    <div class="progress" style="width: 295px;">
+      <div class="progress-bar bg-blue progress-bar-striped" style="width:50%">60%</div>
+    </div>
+<div class="bar"><i style="color: blueviolet;" class='bx bxl-bootstrap'></i>
+    <span>bootstrap</span>
+    <div class="progress" style="width: 300px;">
+      <div class="progress-bar bg-blueviolet progress-bar-striped" style="width:80%">85%</div>
+    </div>
+<div class="bar"><i style="color: cornflowerblue;" class='bx bxl-php'></i>
+    <span>PHP</span>
+    <div class="progress" style="width: 300px;">
+      <div class="progress-bar bg-blue progress-bar-striped" style="width:60%">55%</div>
+    </div>
+</div>
+</div>
+</div>
+<div>
+  <h1 style="margin-left: 710px; margin-top: -316px;text-decoration: underline;">Professional Skills</h1>
+</div>
+<div>
+  <h3 style="margin-left: 650px; font-size: large; margin-top: 40px; border: 4px solid rgb(8, 8, 8); width: 190px; height: 30px; border-radius: 30px; background-color: #1ae4d5;color: black;box-shadow: 0 0 10px chartreuse, 0 0 50px chartreuse;">&nbsp;Communication<span>&nbsp;85%</span></h3>
+</div>
+<div>
+  <h3 style="margin-left: 900px; font-size: large; margin-top: -38px; border: 4px solid rgb(17, 17, 17); width: 200px; height: 30px; border-radius: 30px; background-color: #1ae4d5; color: black;box-shadow: 0 0 10px chartreuse, 0 0 50px chartreuse;">&nbsp;problems solving&nbsp;<span>80%</span></h3>
+</div>
+<div>
+  <h3 style="margin-left: 650px; font-size: large; margin-top: 40px; border: 4px solid rgb(8, 8, 8); width: 190px; height: 30px; border-radius: 30px; background-color: #1ae4d5;color: black;box-shadow: 0 0 10px chartreuse, 0 0 50px chartreuse;">&nbsp;TeamWork<span>&nbsp;90%</span></h3>
+</div>
+<div>
+  <h3 style="margin-left: 900px; font-size: large; margin-top: -38px; border: 4px solid rgb(17, 17, 17); width: 200px; height: 30px; border-radius: 30px; background-color: #1ae4d5; color: black;box-shadow: 0 0 10px chartreuse, 0 0 50px chartreuse;">&nbsp;Creativity&nbsp;<span>75%</span></h3>
+</div>
+</section>
+<div id="Education">
+<section>
+  <div style="margin-top: 250px; text-align: center;">
+  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: italic;font-weight:700; color: aqua; box-shadow: 0 0 5px coral, 0 0 10px coral, 0 0 100px coral;">Education</h1>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="2000">
+<div class="bor">
+    <h4 class="card-title">Matric</h4>
+    <p class="card-text">In Computer Science Governmenet School</p>
+    <a href="#" class="card-link">2017-2018</a>
+  </div>
+  <div class="bor" style="margin-left: 450px; margin-top: -90px;">
+    <h4 class="card-title">F.S.C (PRE-Engineering)</h4>
+    <p class="card-text">Al-Falha Collage  Sangla Hill</p> 
+    <a href="#" class="card-link">2019-2020</a>
+  </div>
+  <div class="bor" style="margin-left: 800px; margin-top: -96px;">
+    <h4 class="card-title">BS(Software Engineer)</h4>
+    <p class="card-text">Virtual University </p> 
+    <a href="#" class="card-link">2022-2024</a>
+  </div>
+</div>
+</section>
+<section>
+  <div id="projects">
+  <div class="pro">
+    <h1>projects</h1>
+  </div>
+  <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+  <div class="img1">
+    <img src="img/Food.jpg">
+  </div>
+</div>
+<div data-aos="fade-up"
+     data-aos-duration="3000">
+<div class="coff">
+  <img src="img/coffee.jpg">
+</div>
+</div>
+<div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+<div class="sch">
+  <img src="img/School.jpg">
+</div>
+</div>
+</div>
+</section>
+<section>
+  <div id="contact">
+  <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+  <div class="cont">
+    <h2>Contact Me </h2>
+   <a href="#"><p>MuhammadFahad5501@gmail.com</p></a>
+    <a href="#"><p>0308-8629519</p></a>
+  </div>
+  <div data-aos="fade-up"
+  data-aos-duration="2000">
+<div class="Home-sci" style="margin-left: 100px;">
+<a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+<a href="https://www.instagram.com"><i class='bx bxl-instagram'></i></a>
+<a href="https://web.whatsapp.com"><i class='bx bxl-whatsapp'></i></a>
+<a href="https://www.tiktok.com"><i class='bx bxl-tiktok'></i></a>
+</div>
+</div>
+  <form class="form1">
+    <input type="text" placeholder="&nbsp;&nbsp;Enter Your Name">
+    <br><br>
+    <input type="text" placeholder="&nbsp;&nbsp;Enter Your Email">
+    <br><br>
+    <input type="text" placeholder="&nbsp;&nbsp;Enter Your Subject">
+    <br><br>
+    <textarea placeholder=" &nbsp;&nbsp;Enter Your Message"></textarea>
+    <br><br>
+<a href="#About" class="bt-box">Submite</a>
+  </form>
+</div>
+</div>
+</section>
+</body>
+</html>
